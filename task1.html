@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f5;
+      color: #333;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #0055ff;
+    }
+
+    img {
+      border: 2px solid #555;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #0088cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #0055ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #003399;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph of text to explain what this page is about.</p>
+
+  <h2>About Me</h2>
+  <p>I’m learning web development and this is my first page!</p>
+
+  <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+  <p>Check out my <a href="https://example.com" target="_blank">favorite website</a>.</p>
+
+  <button onclick="showMessage()">Click Me!</button>
+
+  <script>
+    function showMessage() {
+      alert("Hello! You clicked the button!");
+    }
+  </script>
+</body>
+</html>
